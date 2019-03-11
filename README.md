@@ -52,8 +52,7 @@ Person::Person(string Mname, int Mage) :name(Mname), age(Mage)
 
 void Person::print()
 {
-	cout << "姓名：" << name << '\t' << "年龄" << age << endl; '
-  j;
+	cout << "姓名：" << name << '\t' << "年龄" << age << endl;
 }
 ```
 文件：main.cpp
